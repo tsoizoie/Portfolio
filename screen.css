@@ -35,17 +35,14 @@ a[target]{
 
 body{
     font-family: 'Inter';
-    /*font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;*/
-    /*margin: 10%;
-    padding: 20px;*/
     color: #575381;
     border-top: 5px solid #575381;
     background-color: #F2F1FF; 
     text-align: center;
 }
 
-#left{
-    text-align: left;
+p{
+    margin: 10px;
 }
 
 div{
@@ -62,8 +59,39 @@ div{
     padding-right: 25%;
 }
 
+/*
+@media screen and (max-width: 600px){
+    .project{
+        display: block;
+    }
+}
+*/
+
+.project{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    object-fit: cover;
+    display: block;
+    width: 200px;
+    height: 200px;
+    border: 10px solid #8A87B1;
+}
+
+.pic-text{
+    text-align: left;
+    float: left;
+    padding: 0px;
+}
+
+hr{
+    border-top: dotted #575381;
+}
+
 #about{
-    color: #FFFFFF;
-    background-color: #8A87B1;
+    background-color: #DBD9F3;
 }
 
