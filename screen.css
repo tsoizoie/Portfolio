@@ -64,7 +64,6 @@ p{
 img{
     display: flex;
     object-fit: cover;
-    display: block;
     width: 200px;
     height: 200px;
     border: 10px solid #8A87B1;
